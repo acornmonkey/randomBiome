@@ -1,0 +1,16 @@
+adjectives = ["Snowy ", "Grassy ", "", "Redleaf", "Midnight", "Iron", "Deadly", "Red", "White", "Blue", "Tall", "Solenoid", "Jack", "4D", "Klein", "Health", "Green"]
+nouns = ["Tundra", "Taiga", "Hills", "Midnight", "Desert", "Air", "Grass", "Dirt", "Stone", "Wood", "Leaf", "Lava", "Ore", "Chest", "Soil", "Bush", "Flower", "Sand", "Sandstone", "Cactus", "Snow", "Ice", "Glass", "Pumpkin", "o'Lantern", "Stick", "Hammer", "Pick", "Axe", "Ultrahammer", "Collector", "Rock", "Hypersilk", "Bars", "Compass", "Glasses", "Bottle", "Potion", "Lens", "Alidade", "Handle", "Spider", "Butterfly"]
+name = random adjective + random noun
+weight = random integer between 0 and 100
+temperature = random integer between 0 and 100
+moisture = random integer between 0 and 100
+hMultiplier = random number between 1.0 and 1.5
+vMultiplier = random number between 0.05 and 0.40
+numLayers = random integer between 0 and 3
+block = random block
+depth = random integer between 1 and 6
+numTrees = random integer between 0 and 3
+treeAbundance = random integer between 0 and 100
+abundance = random integer between 1 and 30
+numDecorations = random integer between 0 and 6
+decorationAbundance = random integer between 0 and 100
