@@ -3,7 +3,7 @@ nouns = ["Tundra", "Taiga", "Hills", "Midnight", "Desert", "Air", "Grass", "Dirt
 blocks = ["Air", "Grass", "Dirt", "Stone", "Wood", "Leaf", "Lava", "Iron Ore", "Deadly Ore", "Chest", "Midnight Grass", "Midnight Soil", "Midnight Stone", "Midnight Wood", "Midnight Leaf", "Bush", "Midnight Bush", "Red Flower", "White Flower", "Blue Flower", "Tall Grass", "Sand", "Sandstone", "Cactus", "Snow", "Ice", "Snowy Bush", "Glass", "Solenoid Ore", "Snowy Leaf", "Pumpkin", "Jack o'Lantern"];
 trees = ["Snowy", "Redleaf", "Midnight"];
 function random(array) {
-    return array[randInt(0,array.length)];
+    return array[randInt(0,array.length - 1)];
 }
 function randInt(a,b) {
     return Math.floor(Math.random() * (b + 1 - a)) + a;
